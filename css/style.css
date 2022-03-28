@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Rubik&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	/*font-family: 'Oswald', sans-serif;*/
+font-family: 'Rubik', sans-serif;
+}
+.nav-toggle{
+	border-color: grey;!important
+}
+.navbar-brand{
+	font-family: 'Lobster', cursive;
+	font-size:2rem;
+	color: #000;
+}
+.navbar-brand:hover{
+	color: #000;
+}
+.nav-link{
+	font-family: 'Rubik', sans-serif;
+	margin-right: 10px;
+	margin-left: 10px;
+	text-transform: uppercase;
+	color: #000;
+}
+.nav-link:hover{
+	color: #000;
+}
+.search{
+		font-family: 'Rubik', sans-serif;
+	height: 40px;
+	margin-right: -35px;
+	width: 80%;
+	border-radius: 60px;
+	outline: none;
+	border: 2px solid rgb(248, 26, 92);
+
+}
+.btn0{
+	height: 40px;
+	width: 40%;
+	background: rgb(248, 26, 92);
+	outline: none;
+	border: none;
+	font-weight: 700;
+	color: #fff;
+	border-radius: 60px;
+
+}
+.main{
+	background-position: 50% 50%;
+background-size: cover;
+height: 100vh;
+width: 100%;
+background-repeat: no-repeat;
+	background-image: url("..//image/lunchcopy.jpg");
+	}
+.main h1{
+	font-size: 4rem;
+	font-weight: 700;
+
+}
+.btn1{
+	color: #fff;
+	font-weight: 700;
+	height: 45px;
+	border: none;
+	width: 35%;
+	outline: none;
+	background: rgb(248, 26, 92);
+	border-radius: 60px;
+}
+.btn1:hover{
+	background-color: rgb(223,15,77);
+	transition: 0.5s;
+	box-shadow: ;
+}
+h1{
+	font-weight: 700;
+
+}
+.card:hover{
+	box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+-webkit-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+transition: 0.5s;
+}
+.apple{
+	background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url("..//image/red.jpg");
+	background-size: cover;
+	height: 80vh;
+
+	width: 100%;
+	background-repeat: no-repeat;
+}
+.apple h1{
+	font-family: 'Lobster', cursive;
+}
+.text-location h6{
+	font-weight:bolder ;
+	text-transform: uppercase;
+}
+.news{
+	background: #000;
+	color: #fff;
+}
+.btn2{
+	height: 45px;
+	width: 100px;
+	background: #fff;
+	margin-left: -10px;
+	border: 2px solid White;
+	font-weight: 600;
+
+}
+.news input{
+	height: 45px;
+	width: 55%;
+	border: 2px solid white ;
+	outline: none;
+	background: #000;
+	color: #fff;
+	margin-top: 20px;
+	font-weight: 600;
+}
+.news input::placeholder{
+	color: #fff;
+}
+.news p{
+	margin: 0;
+}
+.icons span i{
+
+	font-size: 1.5rem;
+	cursor: pointer;
+	padding-right: 5px;
+}
